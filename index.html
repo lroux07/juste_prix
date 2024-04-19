@@ -9,12 +9,13 @@
     <title>Vite App</title>
   </head>
   <body>
-    <p>50</p>
+    <p id="count">50</p>
     <div class="row">
       <span>0</span>
-      <input type="range">
+      <input type="range" id="input" min="0" max="100">
       <span>100</span>
     </div>
+    <p>SCORE: <span id="score">0</span></p>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
